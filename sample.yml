@@ -5,6 +5,7 @@
   gather_facts: no
 
   tasks:
-    - name: debug msg
-      debug:
-        msg: "{{ansible_facts}}"
+    - name: Install git
+      apt:
+        name: apache2
+        state: present
