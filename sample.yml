@@ -6,4 +6,4 @@
 
   tasks:
     - name: Run the Script file
-      cmd: bash install.sh
+      command: "bash install.sh"
