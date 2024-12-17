@@ -1,5 +1,5 @@
 - name: install ngnix
-  hosts: localhost
+  hosts: all
   become: yes
   tasks:
  
